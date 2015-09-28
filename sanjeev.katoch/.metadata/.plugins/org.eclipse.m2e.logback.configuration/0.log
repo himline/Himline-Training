@@ -1,0 +1,42 @@
+2015-09-28 08:54:02,329 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.himline:sample:1.0.0-BUILD-SNAPSHOT @ D:\_Workspace\sanjeev.katoch\Sample-SpringMVC\pom.xml.
+2015-09-28 08:54:11,740 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.himline:sample:1.0.0-BUILD-SNAPSHOT @ D:\_Workspace\sanjeev.katoch\Sample-SpringMVC\pom.xml.
+2015-09-28 08:54:17,365 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:17,387 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:17,405 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:17,412 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:19,337 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.himline:sample:1.0.0-BUILD-SNAPSHOT @ D:\_Workspace\sanjeev.katoch\Sample-SpringMVC\pom.xml.
+2015-09-28 08:54:19,816 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.himline:sample:1.0.0-BUILD-SNAPSHOT @ D:\_Workspace\sanjeev.katoch\Sample-SpringMVC\pom.xml.
+2015-09-28 08:54:20,818 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:20,844 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:20,953 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:21,000 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:21,588 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:21,611 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:21,623 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:21,641 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:22,091 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:22,253 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:22,346 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:22,374 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:22,713 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:22,815 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:22,835 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:22,842 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:22,865 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.himline:sample:1.0.0-BUILD-SNAPSHOT @ D:\_Workspace\sanjeev.katoch\Sample-SpringMVC\pom.xml.
+2015-09-28 08:54:26,841 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:26,862 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-28 08:54:26,865 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:26,876 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-28 08:54:30,508 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-09-28 08:54:30,801 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.himline:sample:1.0.0-BUILD-SNAPSHOT @ D:\_Workspace\sanjeev.katoch\Sample-SpringMVC\pom.xml.
+2015-09-28 08:54:31,148 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample-SpringMVC/src/main/java
+2015-09-28 08:54:31,149 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /Sample-SpringMVC/src/main/resources overlaps with sources folder /Sample-SpringMVC/src/main/resources
+2015-09-28 08:54:31,151 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample-SpringMVC/src/test/java
+2015-09-28 08:54:31,152 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /Sample-SpringMVC/src/test/resources overlaps with sources folder /Sample-SpringMVC/src/test/resources
+2015-09-28 08:54:31,790 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Sample-SpringMVC
+2015-09-28 08:54:31,797 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-09-28 08:54:33,618 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.himline:sample:1.0.0-BUILD-SNAPSHOT @ D:\_Workspace\sanjeev.katoch\Sample-SpringMVC\pom.xml.
+2015-09-28 08:54:34,567 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:34,636 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-28 08:54:34,649 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-28 08:54:34,674 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
