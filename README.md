@@ -15,4 +15,5 @@ Local System
 		git init
 		git add sanjeev.katoch
 		git commit -m "comment"
-		git sanjeev.katoch add origin https://github.com/himline/training.gitgit push -u origin master
+		git sanjeev.katoch add sanjeev.katoch https://github.com/himline/training.git
+		git push -u sanjeev.katoch master
