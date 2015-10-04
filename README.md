@@ -14,6 +14,6 @@ Local System
 		cd c:/_workspace/training/
 		git init
 		git add sanjeev.katoch
-		git commit -m "comment"
+		git commit -m "My first checkin"
 		git sanjeev.katoch add sanjeev.katoch https://github.com/himline/training.git
 		git push -u sanjeev.katoch master
