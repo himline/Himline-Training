@@ -8,6 +8,7 @@ https://www.youtube.com/playlist?list=PLfdtiltiRHWFEbt9V04NrbmksLV4Pdf3j
 
 #Install Git on windows
 Go to the site https://git-Scm.com/download/win
+
                Download file
                click on next
                click on next
@@ -20,6 +21,7 @@ Go to the site https://git-Scm.com/download/win
                finish
                
   # How to create path
+  
                 Go to c drive 
                 select programs file
                 click on git
