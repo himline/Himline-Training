@@ -1,0 +1,15 @@
+package com.himline.casting;
+
+public class IntTo {
+	public static void main(String[] args) {
+		
+//		int to float casting 
+     int i1 = 20;   // int 4 byte
+     float f1 = i1; // implicit casting - float 4 byte
+     System.out.println(f1);
+     
+	}
+
+}
+
+

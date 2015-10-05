@@ -1,0 +1,10 @@
+package com.himline.Abstract;
+
+abstract class MotorCar {
+	public abstract void fuel();
+	public abstract void brake();
+	public void airconditioning()
+	{
+	System.out.println("Air conditional is optional");
+	}
+}

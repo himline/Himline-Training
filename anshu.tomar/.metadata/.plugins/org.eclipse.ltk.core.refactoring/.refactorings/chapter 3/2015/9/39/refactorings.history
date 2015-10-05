@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.himline.chapter3.java1.java&apos; to &apos;Arraysingle.java&apos;&#x0D;&#x0A;- Original project: &apos;chapter 3&apos;&#x0D;&#x0A;- Original element: &apos;com.himline.chapter3.java1.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.himline.chapter3.Arraysingle.java&apos;" description="Rename compilation unit &apos;java1.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.himline.chapter3{java1.java" name="Arraysingle.java" references="false" stamp="1442895552595" version="1.0"/>
+</session>
