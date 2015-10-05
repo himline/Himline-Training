@@ -1,0 +1,41 @@
+package com.himline.java;
+
+import java.io.*;
+import java.util.Hashtable;
+import java.util.Scanner;
+import java.util.Vector;
+
+
+public class Test {
+
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader in = new BufferedReader(new FileReader("chhavi.text"));
+        String str;
+
+        while((str = in.readLine()) != null){
+            String[] arr = str.split(" ");
+            for(int i=0 ; i<str.length() ; i++){
+                arr[i] = in.readLine();
+          List<String> list = new ArrayList<String>();      
+                
+            }
+        }
+			
+		 
+	            
+	            
+	            
+	            
+	            
+	            
+	           
+	            
+	        }
+	    }
+	
+		
+		
+			      
+			      
+

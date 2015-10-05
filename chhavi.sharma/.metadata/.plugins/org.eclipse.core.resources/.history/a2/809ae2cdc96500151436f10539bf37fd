@@ -1,0 +1,61 @@
+package com.himline.java;
+
+import java.io.*;
+import java.util.Hashtable;
+import java.util.Scanner;
+import java.util.Vector;
+
+
+public class Test {
+
+	public static void main(String[] args) throws IOException {
+		FileReader fr = new FileReader(new File("chhavi.txt"));
+		char[] ch = new char[50];
+		fr.read(ch);
+		for (char ch1 : ch) {
+		System.out.print(ch1);
+		}
+		fr.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		 // The name of the file which we will read from
+        //String filename = "chhavi.txt";
+
+        // Prepare to read from the file, using a Scanner object
+        //File file = new File(filename);
+        //Scanner sc= new Scanner(file);
+       // Vector<String>vect = new Vector();
+	       // while(sc.hasNextLine()) {
+	            //System.out.println(sc.nextLine());
+	           // String s = sc.nextLine();
+	           // vect.add(s);
+	            
+	            
+	            
+	            
+	            
+	            
+	           
+	            
+	        }
+	    }
+	}
+		
+		
+			      
+			      
+

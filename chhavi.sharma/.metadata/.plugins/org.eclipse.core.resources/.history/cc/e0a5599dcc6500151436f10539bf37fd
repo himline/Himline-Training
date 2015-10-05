@@ -1,0 +1,17 @@
+package com.himline.IOstream;
+
+import java.io.*;
+
+public class writefile {
+	
+	
+	public static void main(String [] args) {
+
+	        // The name of the file to open.
+	        String fileName = "chh.txt";
+
+	}
+}
+
+
+

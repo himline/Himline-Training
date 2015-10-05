@@ -1,0 +1,65 @@
+package com.himline.Linkedlist;
+
+import java.util.*;
+
+public class Demo {
+	LinkedList<String> myList = new LinkedList<String>();
+	LinkedList<String> yourList = new LinkedList<String>();
+	HashSet hs1 = new HashSet();
+	HashSet hs2 = new HashSet();
+	HashMap<String, Integer> hm1 = new HashMap<String, Integer>();
+	HashMap<String, Integer> hm2 = new HashMap<String, Integer>();
+	TreeMap tm1 = new TreeMap();
+	
+
+	// print all 
+	System.out.println("isEmpty() before adding elements: " + myList.isEmpty());
+	System.out.println("isEmpty() before adding elements: " + yourList.isEmpty());
+	System.out.println("isEmpty() before adding elements: " + hs1.isEmpty());
+	System.out.println("isEmpty() before adding elements: " + hm1.isEmpty());
+	System.out.println("isEmpty() before adding elements: " + tm1.isEmpty());
+
+
+
+
+	// linked list
+	myList.add("chhavi");
+	myList.offer("a");
+	myList.addFirst("rupal");
+	myList.addLast("Anshu");
+	myList.add(2, "Amarjot");
+	myList.set(3, "bye");
+
+	System.out.println("No. of elements: " + myList.size());
+	   System.out.println("isEmpty() after adding elements: " + myList.isEmpty());
+	   
+	   // RETRIEVING METHODS
+	   System.out.println("\ngetFirst() " + myList.getFirst());
+	   System.out.println("getLast() " + myList.getLast());
+	   System.out.println("get(3) " + myList.get(3));
+	   
+	   // peek and poll method
+	   System.out.println("\npeek(): " + myList.peek());
+	   System.out.println("poll(): " + myList.poll());
+	   System.out.println("poll(): " + myList.poll());
+	   
+	   // REMOVING METHODS
+	   System.out.println("\nElements before removal: " + myList);
+	   System.out.println("remove(2): " + myList.remove(2));
+	   System.out.println("Elements after removal: " + myList);
+	   
+	   
+	   // SORTING IN ASCENDING ORDER
+	   Collections.sort(myList);
+	   System.out.println("Sorted elements: " + myList);
+	   
+	   // SHUFFLING
+	   Collections.shuffle(myList);
+	   System.out.println("\nFirst shuffle elements: " + myList);
+	   
+	   System.out.println("\naali exists: " + myList.contains("aali"));
+}
+}
+}
+	   
+	   

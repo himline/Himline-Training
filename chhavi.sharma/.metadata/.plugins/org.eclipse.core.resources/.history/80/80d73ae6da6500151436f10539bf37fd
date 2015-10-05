@@ -1,0 +1,43 @@
+package com.himline.java;
+//import java.util.ArrayList;
+
+//import java.util.Hashtable;
+// import java.util.Scanner;
+//import java.util.Vector;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
+
+public class Test {
+
+	public static void main(String[] args) throws IOException {
+
+		BufferedReader buff = new BufferedReader(new FileReader("chhavi.txt"));
+		String str;
+		List<String> list = new ArrayList<String>();
+		while ((str = buff.readLine()) != null) {
+			list.add(str);
+		}
+		for (int i = 0; i < list.size(); i++) {
+			System.out.println("value :"  +  i + " = " + list.get(i));
+			
+			
+			  Vector<Integer> vect1 = new Vector();
+			    vect1.add(50);
+			    vect1.add(80);
+			    vect1.add(30);
+			    vect1.add(60);
+			    vect1.add(10);
+			    
+			    System.out.print("\nlist with for loop: ");  // 2nd style
+			    for(int i2 = 0; i < vect1.size(); i++)
+			    {
+			      System.out.print(vect1.elementAt(i) + " ");
+			    }
+
+		}
+
+	}
+}

@@ -1,0 +1,12 @@
+package com.himline.hello;
+
+public class hellohim {
+
+	public static void main(String[] args) {
+		System.out.println("hello himline");
+	    System.out.print("himline internet");
+	    System.out.println("pvt ltd");
+
+	}
+
+}

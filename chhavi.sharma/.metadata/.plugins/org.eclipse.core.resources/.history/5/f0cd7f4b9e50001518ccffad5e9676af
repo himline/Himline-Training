@@ -1,0 +1,6 @@
+package com.himline.hello;
+
+public abstract class Bike {
+	abstract void run();
+
+}
