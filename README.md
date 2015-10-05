@@ -38,8 +38,9 @@ Go to the site https://git-Scm.com/download/win
                      
   #Local System 
 - Create workspace directory 
+
                 c:/_workspace/training/<first part of himline email id)
-		>Example 
+		Example 
 		>c:/_workspace/training/sanjeev.katoch
 		
 - Make a simple MVC project in STS
