@@ -3,7 +3,9 @@ Training Contents
 
 This Himline Repository is made for committing the training code by indivdual memebers. They can also commit small solutions in it.
 
-Local System 
+#Install Git on windows
+
+#Local System 
 - Create workspace directory  
 		c:/_workspace/training/<first part of himline email id)
 		Example 
@@ -15,5 +17,5 @@ Local System
 		git init
 		git add sanjeev.katoch
 		git commit -m "My first checkin"
-		git sanjeev.katoch add sanjeev.katoch https://github.com/himline/training.git
-		git push -u sanjeev.katoch master
+		git remote add origin https://github.com/himline/training.git
+		git push --force -u origin master
