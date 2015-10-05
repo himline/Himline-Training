@@ -14,6 +14,8 @@ This Himline Repository is made for committing the training code by indivdual me
 		
 - Make a simple MVC project in STS
 		
+		git config --global user.email "you@example.com"
+		git config --global user.name "Your Name"
 		cd c:/_workspace
 		git clone https://github.com/himline/training
 		cd c:/_workspace/training/
