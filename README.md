@@ -3,6 +3,9 @@ Training Contents
 
 This Himline Repository is made for committing the training code by indivdual memebers. They can also commit small solutions in it.
 
+#Git & GitHub Tutorials
+https://www.youtube.com/playlist?list=PLfdtiltiRHWFEbt9V04NrbmksLV4Pdf3j
+
 #Install Git on windows
 
 #Local System 
