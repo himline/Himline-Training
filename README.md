@@ -13,8 +13,8 @@ This Himline Repository is made for committing the training code by indivdual me
 		c:/_workspace/training/sanjeev.katoch
 		
 - Make a simple MVC project in STS
-
-                cd c:/_workspace
+		
+		cd c:/_workspace
 		git clone https://github.com/himline/training
 		cd c:/_workspace/training/
 		git init
