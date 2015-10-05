@@ -8,7 +8,7 @@ Playlist:- https://www.youtube.com/playlist?list=PLfdtiltiRHWFEbt9V04NrbmksLV4Pd
 
 or
 
-Single Video: https://www.youtube.com/watch?v=DVDLoe_2MBc
+Single Video: https://www.youtube.com/watch?v=DVDLoe_2MBc (Please Watch the Downloaded Copy)
 
 #Install Git on windows
 
