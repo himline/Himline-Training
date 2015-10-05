@@ -1,0 +1,8 @@
+package com.himline.mvc;
+class Emplyee{
+ int salary=40000;
+	}
+
+	
+	
+

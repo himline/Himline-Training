@@ -1,0 +1,14 @@
+package chapter7;
+
+public class Genericclass<T> {
+
+	public Genericclass(T param) {
+
+	}
+
+//	public static void main(String[] args) {
+//		Genericclass<String> st = new Genericclass<String>("hello");
+//	//	String str = st.get
+//		System.out.println(st);
+	}
+}

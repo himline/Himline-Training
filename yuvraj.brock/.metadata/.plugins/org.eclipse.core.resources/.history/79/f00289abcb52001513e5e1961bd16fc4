@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package Appweather;
+
+import javax.print.attribute.standard.MediaSize.ISO;
+
+import com.teknikindustries.yahooweather.WeatherDisplay;
+import com.teknikindustries.yahooweather.WeatherDoc;
+
+/**
+ * @author user
+ *
+ */
+public class App extends javax.swing.JFrame {
+	public App() {
+		initComponents();
+		getWeather();
+
+	}
+
+	private void initComponents() {
+		// TODO Auto-generated method stub
+
+	}
+
+	private void getWeather() {
+
+		WeatherDoc Doc = new WeatherDoc("29085081", "c");
+		WeatherDisplay display = new WeatherDisplay();
+		String tempu = display.getTemperature();
+	//	info.setText(display.getTemperature());
+		System.out.println(display.getTemperature());
+		System.out.println(display.getCondition());
+	}
+
+	public static void main(String args[]) {
+		java.awt.EventQueue.invokeLater(new Runnable() {
+
+			public void run() {
+				new App().setVisible(true);
+			}
+		});
+	}
+
+}

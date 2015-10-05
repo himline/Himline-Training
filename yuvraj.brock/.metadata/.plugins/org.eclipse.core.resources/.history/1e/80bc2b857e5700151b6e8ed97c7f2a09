@@ -1,0 +1,38 @@
+package com.himline.assesment;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.Collections;
+
+class SerialParentParent implements Serializable {
+    int parentParentVersion = 10;
+}
+
+class SerialParent implements Serializable {
+    int parentVersion = 11;
+}
+
+class Contain implements Serializable{	
+    int containVersion = 20;
+}
+
+public class SerialClass extends SerialParent implements Serializable {
+    int version = 12;	
+    Contain con = new Contain();	
+
+    public int getVersion() {		
+        return version;	
+    }
+	
+    public static void main(String args[]) throws IOException {		
+        FileOutputStream fos = new FileOutputStream("temp.ser");		
+        ObjectOutputStream oos = new ObjectOutputStream(fos);		
+        SerialClass st = new SerialClass();		
+        oos.writeObject(st);		
+        oos.flush();		
+        oos.close();	
+    }
+}
+

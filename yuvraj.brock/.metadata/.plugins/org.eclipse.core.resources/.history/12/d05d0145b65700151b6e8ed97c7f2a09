@@ -1,0 +1,35 @@
+package Appweather;
+
+import java.awt.FlowLayout;
+import java.awt.Frame;
+
+import javax.swing.*;
+
+import com.teknikindustries.yahooweather.WeatherDisplay;
+
+public class TestFrameExample {
+
+	private static final String temperature = null;
+
+	public static void main(String s[]) {
+		App a = new App();
+		JFrame frame = new JFrame("JFrame Example");
+		WeatherDisplay display = new WeatherDisplay();
+		JPanel panel = new JPanel();
+		panel.setLayout(new FlowLayout());
+
+		JLabel label = new JLabel();
+		panel.add(label);
+		frame.add(panel);
+		frame.setSize(30, 200);
+		frame.setLocationRelativeTo(null);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+		//Object App;
+		System.out.println(display.getTemperature());
+		System.out.println(display.getCondition());
+		frame.getClass();
+		
+
+	}
+}

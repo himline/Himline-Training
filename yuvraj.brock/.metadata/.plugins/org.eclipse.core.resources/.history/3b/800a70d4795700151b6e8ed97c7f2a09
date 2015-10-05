@@ -1,0 +1,7 @@
+package com.himline.assesment;
+
+public enum employee2 {
+public static void main(String [] args){
+	
+}
+}

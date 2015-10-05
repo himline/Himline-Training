@@ -1,0 +1,11 @@
+package demo;
+
+@Controller
+
+public class Greeting {
+	
+	public @requestbody String greeting{
+		return "Hello";
+	}
+
+}

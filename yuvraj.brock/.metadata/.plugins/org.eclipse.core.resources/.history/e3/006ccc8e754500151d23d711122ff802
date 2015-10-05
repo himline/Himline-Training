@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.himline.mvc;
+
+/**
+ * @author user
+ *
+ */
+public class Multidimensionalarray {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package demo;
+
+
+public class Greeting {
+	int a;
+	int b;
+	int c;
+	@RequestMapping(/"greeting")
+	public @requestbody  String greeting(){
+		
+		c=a+b;
+		
+		return "home";  
+	}
+
+}

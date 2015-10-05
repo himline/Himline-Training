@@ -1,0 +1,13 @@
+package com.himline.mypractice;
+
+public class Class {
+int a = 20;
+int b =a ;
+ 
+ void c(){
+a = 30;
+System.out.println(b);
+}
+
+
+}

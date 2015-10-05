@@ -1,0 +1,13 @@
+package com.himline.mvc;
+
+public class floatexample {
+public static void main(String[] arg){
+	Float fobj =new Float(10.50f);
+	byte b =fobj.byteValue();
+	float f=fobj.floatValue();
+	double d=fobj.doubleValue();
+	System.out.println(b);
+	System.out.println(f);
+	System.out.println(d);
+}
+}

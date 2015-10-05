@@ -1,0 +1,37 @@
+package com.himline.chapter5;
+
+import javax.xml.bind.Validator;
+
+public class Assertion {
+	int x = 15;
+	int y = 1;
+
+	void noReturn() {
+	}
+
+	int aReturn() {
+		return 1;
+	}
+
+	void go() {
+	int x = 1;
+	boolean b = true;
+	// the following six are legal assert statements
+	assert(x == 1);
+	assert(b);
+	assert true;
+	assert(x == 1) : x;
+	assert(x == 1) : aReturn();
+	assert(x == 1) : new String();
+	// the following six are ILLEGAL assert statements
+	assert(x == 1); // none of these are booleans
+
+
+	assert(x  == 1)  ; // none of these return a value
+	assert(x == 1) ;
+		noReturn();
+	assert(x == 1) ;
+	Validator va;
+	}
+
+}

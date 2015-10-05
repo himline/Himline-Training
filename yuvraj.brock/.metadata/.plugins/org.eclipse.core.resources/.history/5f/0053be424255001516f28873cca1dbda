@@ -1,0 +1,30 @@
+package com.himline.mypractice;
+
+public class Consecutivenumbers {
+	public static void main(String[] args) {
+		String num = "10-9-8-7-6";
+		String[] str = num.split("-");
+		int counter = 0;
+		for (int i = 0; i < str.length; i++) {
+			Integer int1 = Integer.parseInt(num);
+			Integer int2 = Integer.parseInt(num + 1);
+		
+		if(int1 > int2){	
+		if (int1 - int2 == 1) {
+counter++;
+		}
+		else{
+			if(int2 - int1==1){
+				counter++;
+			}
+		}
+		}
+	}
+		if(counter ==4 ){
+			System.out.println("Consecutive");
+		}
+		if(counter != 4){
+			System.out.println("wrong");
+		}
+}
+}

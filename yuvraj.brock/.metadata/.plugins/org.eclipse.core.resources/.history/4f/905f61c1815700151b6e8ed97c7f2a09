@@ -1,0 +1,36 @@
+package com.himline.assesment;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.Collections;
+
+public class Employee implements Serializable {
+
+	String firstname;
+	String age;
+
+	public String getFirstname() {
+		return firstname;
+	}
+
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+
+	public String getAge() {
+		return age;
+	}
+
+	public void setAge(String age) {
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [firstname=" + firstname + ", age=" + age + ", getFirstname()=" + getFirstname()
+				+ ", getAge()=" + getAge() + "]";
+	}
+
+}

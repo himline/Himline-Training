@@ -1,0 +1,56 @@
+/**
+ * 
+ */
+package Appweather;
+
+import java.awt.LayoutManager;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import javax.print.attribute.standard.MediaSize.ISO;
+
+import com.teknikindustries.yahooweather.WeatherDisplay;
+import com.teknikindustries.yahooweather.WeatherDoc;
+
+/**
+ * @author user
+ *
+ */
+public class App extends javax.swing.JFrame {
+	public App() {
+		initComponents();
+		getWeather();
+
+	}
+
+	private void initComponents() {
+	
+
+	}
+
+	public  void getWeather() {
+	//	TestFrameExample tf = new TestFrameExample ();
+		WeatherDoc Doc = new WeatherDoc("90887925", "f");
+		WeatherDisplay display = new WeatherDisplay();
+		String tempu = display.getTemperature();
+		//TestFrameExample.class<>();
+		System.out.println(display.getTemperature());
+		System.out.println(display.getCondition());
+		
+		
+	}
+	void hell() throws IOException{
+		
+	}
+
+	public static void main(String args[]) throws IOException {
+		
+		java.awt.EventQueue.invokeLater(new Runnable() {
+
+			public void run() {
+				new App().setVisible(true);
+			}
+		});
+	}
+
+}

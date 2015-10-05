@@ -1,0 +1,13 @@
+package com.himline.chapter5;
+
+public class forclass {
+
+	public static void maijn(String [] args){
+		for(int i =0;i<5; i++){
+			i=0;
+			i++;
+		
+		}
+		System.out.println(i);
+	}
+}

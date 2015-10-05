@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package com.himline.mvc;
+
+/**
+ * @author user
+ *
+ */
+public class Multidimensionalarray {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int arrayone[][]={{2,2,1,5,1,5},{4,54,6,6,}};
+		int arraytwo[][]={{2,2,1,5},{4,54,6,6,},{4,5,88,6,6,}};
+		System.out.println("first sample");
+		System.out.println("second sample");
+show(arrayone);
+show(arraytwo);
+	}
+	public static void show(int x[][]) {
+		for(int row=0; row<x.length;row++){
+			for(int column=0;column<x[row].length;column++){
+				System.out.println(x[row][column]+"/t");
+			}
+		}
+	}
+}

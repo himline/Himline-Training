@@ -1,0 +1,13 @@
+package com.himline.mypractice;
+
+public class Consecutivenumbers {
+	public static void main(String [] args){
+		String num ="10-9-8-7-6";
+		String[] str = num.split("-");
+		int counter  = 0;
+		for(int i = 0 ; i <str.length ; i++){
+		Integer int1 = Integer.parseInt(num);
+		Integer int2 = Integer.parseInt(num+1);
+		}
+	}
+}

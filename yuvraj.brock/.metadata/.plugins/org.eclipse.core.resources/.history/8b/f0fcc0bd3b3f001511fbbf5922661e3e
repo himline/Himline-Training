@@ -1,0 +1,32 @@
+package com.himline.mvc;
+
+import java.util.HashMap;
+
+
+
+public class Hashset {
+public static void main (String[] args){
+	String str="abcs";
+	HashMap<String, Integer> map= new HashMap <String, Integer>();
+	map.put("keyone", 1);
+	map.put("keytwo", 0);
+	if(map!=null){
+		System.out.println("[break]");	
+		
+	}
+	
+	map.put("keytwo",2);
+	map.remove("keytwo");
+	map.clone();
+		System.out.println(map.containsKey("keytwo"));
+		System.out.println(map);
+	
+}
+private String str;
+public void ab(){
+	String str=null;
+	this.str=str;
+	
+}
+System.out.println(str);
+}

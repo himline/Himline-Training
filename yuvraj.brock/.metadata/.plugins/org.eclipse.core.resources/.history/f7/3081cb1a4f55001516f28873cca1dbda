@@ -1,0 +1,30 @@
+package com.himline.mypractice;
+
+public class Matchclass {
+
+	public static void main(String[] args) {
+		 
+	    String numbers = "9-8-5-7-8";
+	    String[] array_numbers = numbers.split("-");
+	 
+	    int counter = 0;
+	 
+	    for (int i = 0; i < array_numbers.length - 1; i++)
+	    {
+	        String pair_check = array_numbers[i];
+	 
+	        for (int j = i + 1; j  < array_numbers.length; j ++)
+	        {
+	            if (pair_check.equals(array_numbers[j]))
+	            {
+	                counter++;
+	            }
+	        }
+	    }
+	 
+	    if (counter > 0) {
+	        System.out.println("At least one pair found");  
+	    }
+	}
+}
+

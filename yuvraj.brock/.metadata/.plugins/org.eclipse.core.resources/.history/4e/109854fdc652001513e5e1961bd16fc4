@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package Appweather;
+
+import com.teknikindustries.yahooweather.WeatherDisplay;
+import com.teknikindustries.yahooweather.WeatherDoc;
+
+/**
+ * @author user
+ *
+ */
+public class App extends javax.swing.JFrame {
+	public App(){
+		initComponents();
+ getWeather();
+		
+	}
+
+	private void initComponents() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void getWeather() {
+	
+		WeatherDoc Doc = new WeatherDoc("2290630","c");
+		WeatherDisplay display= new WeatherDisplay();
+		System.out.println(display.getTemperature());
+	}
+
+}

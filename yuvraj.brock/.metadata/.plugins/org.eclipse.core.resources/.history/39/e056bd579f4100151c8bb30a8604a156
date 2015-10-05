@@ -1,0 +1,13 @@
+<html data-ng-app="">
+<head>
+<body data-ng-init="customer=[{name:'yuvraj'}]">
+Name:<input type="text" data-ng-model="id"/>{{id}}
+<ul>
+<li data-ng-repeat="new in customer|filter:id|orderBy:'name' ">
+{{ new.name }}
+</li>
+</ul>
+<button>hello</button>
+</body>
+<head>
+</html>

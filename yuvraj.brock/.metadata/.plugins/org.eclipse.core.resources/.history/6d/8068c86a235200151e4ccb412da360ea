@@ -1,0 +1,15 @@
+package chapter7;
+
+public class GenericBoxOutput {
+public static void main(String[] args){
+	GenericBox<String> box1= new GenericBox <String>("alpha");
+	Class<? extends GenericBox> i = box1.getClass();
+	GenericBox<Integer> box2 =new GenericBox<Integer>(15);
+	GenericBox<Double> box3 = new GenericBox<Double>(56.32);
+	
+	
+	System.out.println(box1);
+	System.out.println(box2);
+	System.out.println(box3);
+}
+}

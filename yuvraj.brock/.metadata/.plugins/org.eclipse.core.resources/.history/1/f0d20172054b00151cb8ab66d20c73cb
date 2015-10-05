@@ -1,0 +1,13 @@
+package com.himline.chapter5;
+
+public class Assertion {
+	int x=15;
+	int y=1;
+	 
+	private void doStuff() {
+		assert (y > x);
+		// more code assuming y is greater than x
+		System.out.println("wrong");
+		}
+
+}

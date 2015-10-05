@@ -1,0 +1,25 @@
+package com.himline.mvc;
+
+import java.util.HashMap;
+
+import javax.print.DocFlavor.STRING;
+
+public class Hashset {
+public static void main (String[] args){
+	
+	HashMap<String, Integer> map= new HashMap <String, Integer>();
+	map.put("keyone", 1);
+	map.put("keytwo", 0);
+	if(map!=null){
+		System.out.println("[break]");	
+		
+	}
+	
+	map.put("keytwo",2);
+	map.remove("keytwo");
+	map.clone();
+		System.out.println(map.containsKey("keytwo"));
+		System.out.println(map);
+	
+}
+}

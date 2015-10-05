@@ -1,0 +1,64 @@
+package chapter7;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Hashtable;
+
+public class Hashtablesample {
+
+	public static void main(String[] args) {
+
+		// map 1
+		HashMap<String, String> hm = new HashMap<String, String>();
+		hm.put("key1", "map1");
+		hm.put("key2", "map2");
+		System.out.println("Map value===>" + hm);
+
+		// table 1
+		Hashtable<String, String> ht = new Hashtable<String, String>();
+		ht.put("yuvraj", "arora");
+		ht.put("amarjot", "kaur");
+
+		// adding map values to table ? when if condition is true
+		if (ht.size() > 3 && hm.containsValue("map1")) {
+			System.out.println("IS MAP KEY EXIST ===> " + ht.containsKey("key1"));
+			ht.putAll(hm);
+			System.out.println("IS MAP KEY EXIST ===>  " + ht.containsKey("key1"));
+		} else {
+			ht.put("if condition", "not true");
+			System.out.println(ht);
+			ht.remove("if condition");
+		}
+
+		// after insertion of map value of new table
+		System.out.println("SIZE OF HASH TABLE===>   " + ht.size());
+		System.out.println("HASHTABLE  ===> " + ht);
+
+		// replace function
+		ht.replace("yuvraj", "arora", "kaur");
+		System.out.println("HASHTABLE AFTER REPLACEMENT===>" + ht);
+
+		// remove function
+		ht.remove("yuvraj");
+		System.out.println("SIZE OF HASH TABLE ===>   " + ht.size());
+
+		// getting value
+		ht.get("amarjot");
+		System.out.print(ht.get("amarjot"));
+		
+		
+		
+		
+		try {
+			File fl = new File("hash.txt");
+			boolean newFile= false;
+			newFile=fl.createNewFile();
+			System.out.println(fl.exists());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

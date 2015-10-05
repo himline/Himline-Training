@@ -1,0 +1,10 @@
+package demo;
+
+@Controller
+public class Greeting {
+	@RequestMapping("/greeting")
+	public @Responsebody String greeting{
+		return ""Hello";
+	}
+
+}

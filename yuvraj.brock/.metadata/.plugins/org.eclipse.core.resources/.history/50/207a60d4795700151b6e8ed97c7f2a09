@@ -1,0 +1,5 @@
+package com.himline.assesment;
+
+public enum employee2 {
+
+}

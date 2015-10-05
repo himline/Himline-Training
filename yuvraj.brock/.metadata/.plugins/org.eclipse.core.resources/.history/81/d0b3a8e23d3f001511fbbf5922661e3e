@@ -1,0 +1,12 @@
+package com.himline.mvc;
+
+public class Bool {
+public Boolean check;
+String str;
+public Bool(){
+	str="abc";
+	
+	System.out.println(str);
+}
+
+}

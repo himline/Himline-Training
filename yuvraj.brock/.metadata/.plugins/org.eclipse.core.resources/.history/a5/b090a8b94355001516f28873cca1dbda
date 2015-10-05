@@ -1,0 +1,22 @@
+package com.himline.mypractice;
+
+public class Matchclass {
+
+	public static void main(String[] args) {
+		String str = "10-9-8-7-5";
+		String[] num = str.split("-");
+		int counter = 0;
+
+		for (int i = 0; i < num.length-1; i++) {
+			Integer num1 = Integer.parseInt(num[i]);
+			Integer num2 = Integer.parseInt(num[i + 1]);
+
+			if (num1 == num2) {
+				System.out.println("pair found");
+			} else {
+				System.out.println("no pair found");
+			}
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package Appweather;
+
+import javax.swing.JFrame;
+
+/**
+ * @author user
+ *
+ */
+public class App extends JFrame {
+
+}

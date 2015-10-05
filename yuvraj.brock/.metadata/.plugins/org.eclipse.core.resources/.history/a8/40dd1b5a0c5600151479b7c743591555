@@ -1,0 +1,24 @@
+package com.himline.mypractice;
+
+import java.io.*;
+public class TryMe {
+    
+    public static void printB(String str) {
+         System.out.print(Boolean.valueOf(str) ? "true" : "false"); 
+    }
+    
+    public static void main(String args[]) {
+        printB("tRuE");
+        printB("false");
+        int a = 10; //primitive
+									        Integer wrap = new Integer (a);// boxing 
+									        System.out.println(wrap);
+        
+									        
+									        /*unboxin*/
+									        int b = wrap.intValue();
+									        System.out.println(b);
+									        Double d = Double.valueOf("aaa");
+									        System.out.println(d instanceof Double);
+    }
+}

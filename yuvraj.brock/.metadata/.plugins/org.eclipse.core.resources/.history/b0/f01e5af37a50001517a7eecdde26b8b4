@@ -1,0 +1,90 @@
+package chapter7;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Scanner;
+
+public class Hashtablesample {
+	
+	static HashMap<String, String> hm2 = new HashMap<String, String>();
+	static Hashtable<String, String> ht = new Hashtable<String, String>();
+
+	Hashtablesample() {
+		// map 1
+		HashMap<String, String> hm = new HashMap<String, String>();
+		hm.put("key1", "map1");
+		hm.put("key2", "map1");
+		System.out.println("Map value===>" + hm);
+
+		// map 2
+
+		hm2.put("key3", "map2");
+		hm2.put("key4", "map2");
+		hm2.putAll(hm);
+		System.out.println("Map2 value===>" + hm2);
+
+		// table 1
+
+		ht.put("yuvraj", "arora");
+		ht.put("amarjot", "kaur");
+
+		// adding map values to table ? when if condition is true
+		if (ht.size() > 0 && hm.containsValue("map1")) {
+			System.out.println("IS MAP KEY EXIST ===> " + ht.containsKey("key1"));
+			ht.putAll(hm);
+			System.out.println("IS MAP KEY EXIST ===>  " + ht.containsKey("key1"));
+		} else if (hm2.size() > ht.size()) {
+			ht.putAll(hm2);
+			System.out.println("NEW VALUE OF HASH TABLLE====>" + ht);
+		} else {
+			ht.put("if condition", "not true");
+			System.out.println(ht);
+			ht.remove("if condition");
+		}
+
+		// replace function
+		ht.replace("yuvraj", "arora", "kaur");
+		System.out.println("HASHTABLE AFTER REPLACEMENT===>" + ht);
+
+		// remove function
+		ht.remove("yuvraj");
+		System.out.println("SIZE OF HASH TABLE ===>   " + ht.size());
+
+		// getting value
+		ht.get("amarjot");
+		System.out.println(ht.get("amarjot"));
+
+	}
+
+	public static void main(String[] args) {
+		Hashtablesample hsample =new Hashtablesample();
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter keyword: ");
+		String userinput = scan.nextLine();
+		if (userinput.equals("map")) {
+			System.out.println(hsample.hm2);
+		} else if (userinput.equals("tab")) {
+			System.out.println(ht);
+		} else {
+			System.out.println("ENTER CORRECT KEYWORD:");
+		}
+
+		try {
+			boolean newFile = false;
+			File fl = new File("hash.txt");
+			newFile = fl.createNewFile();
+			FileWriter fw = new FileWriter(fl);
+			fw.write("hm");
+
+			System.out.println(fl.exists());
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		}
+	}
+
+}

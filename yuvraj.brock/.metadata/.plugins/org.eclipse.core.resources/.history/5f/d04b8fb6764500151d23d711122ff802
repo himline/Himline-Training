@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package com.himline.mvc;
+
+public class Multidimensionalarray {
+
+	public static void main(String[] args) {
+		int arrayone[][] = {{ 2, 2, 1, 5, 1, 5 },{ 4, 54, 6, 6, }};
+		int arraytwo[][] = {{ 2, 2, 1, 5 },{ 4, 54, 6, 6, },{ 4, 5, 88, 6, 6, }};
+		System.out.println("first sample");
+		show(arrayone);
+		System.out.println("second sample");
+		show(arraytwo);
+	}
+
+	public static void show(int x[][]) {
+		for (int row = 0; row < x.length; row++) {
+			for (int column = 0; column < x[row].length; column++) {
+				System.out.print(x[row] [column]);
+			}
+			System.out.println();
+		}
+		
+	}
+	
+
+}

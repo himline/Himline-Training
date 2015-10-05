@@ -1,0 +1,16 @@
+package com.himline.chapter5;
+
+public class forclass {
+
+static //	public static void main(String [] args){
+String[] str={"abc"};
+	
+		public static void main(String [] args){
+			for(String st : str){
+			for(int j =0; j<5;j++ ){
+
+					System.out.println(str.toString() +"value"+j);
+			}
+	}
+}
+}
