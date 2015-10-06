@@ -13,6 +13,8 @@ Go to the site https://git-Scm.com/download/win
                >click on next
                >click on next
                >click on next
+               >click on next
+               >click on next
                >choose use git from the window command prompt
                >choose use open SSH
                >click on next
